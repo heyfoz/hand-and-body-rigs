@@ -2,7 +2,11 @@
 
 Copyright © 2026 Forrest Moulin. Released under the [MIT License](LICENSE.txt).
 
-![Armored Sentinel V2](preview.webp)
+![Armored Sentinel V2 arm and wrist demo](previews/motion.gif)
+
+[Still image](preview.webp) · [MP4 demo](previews/motion.mp4)
+
+The preview animates the supplied rig. This demo motion is not embedded in the GLB.
 
 A full-body rigged character with embedded textures, 68 skin joints and
 articulated hands. Includes 30 finger controls and 10 fingertip endpoints.

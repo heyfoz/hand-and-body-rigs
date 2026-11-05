@@ -14,11 +14,27 @@ embedded textures, ready to import into a GLB-compatible application.
 
 | Rig | Model | Mapping and instructions |
 | --- | --- | --- |
-| Left hand | [left-hand.glb](hands/assets/left-hand.glb) | [Hand guide](hands/README.txt) · [Mappings](hands/mappings.json) |
-| Right hand | [right-hand.glb](hands/assets/right-hand.glb) | [Hand guide](hands/README.txt) · [Mappings](hands/mappings.json) |
+| Left hand | [left-hand.glb](hands/assets/left-hand.glb) | [Hand guide](hands/README.md) · [Mappings](hands/mappings.json) |
+| Right hand | [right-hand.glb](hands/assets/right-hand.glb) | [Hand guide](hands/README.md) · [Mappings](hands/mappings.json) |
 | Armored Sentinel V2 | [sentinel.glb](bodies/sentinel/assets/sentinel.glb) | [Sentinel guide](bodies/sentinel/README.md) · [Mappings](bodies/sentinel/mappings.json) |
 
-![Armored Sentinel V2](bodies/sentinel/preview.webp)
+## Rig previews
+
+### Hands
+
+![Left and right hand rigs opening, curling and pointing](hands/previews/motion.gif)
+
+[Still image](hands/previews/preview.png) · [MP4 video](hands/previews/motion.mp4)
+
+### Armored Sentinel V2
+
+![Armored Sentinel V2 moving its arm and wrist](bodies/sentinel/previews/motion.gif)
+
+[Still image](bodies/sentinel/previews/preview.png) · [MP4 video](bodies/sentinel/previews/motion.mp4)
+
+These loops are rendered from the included GLBs. They demonstrate joint movement;
+the downloadable models remain static rigs without embedded animation clips.
+The demo poses are illustrative, not ASL instruction.
 
 ## Quick start
 
@@ -54,7 +70,13 @@ clear in its own folder.
   [MIT license](https://github.com/microsoft/Microsoft-Rocketbox/blob/master/LICENSE.md);
   keep Microsoft's copyright and license with redistributed assets.
 
+| Vitruvian | Microsoft Rocketbox |
+| --- | --- |
+| [![Vitruvian base mesh shown as a neutral clay portrait](media/vitruvian-clay.png)](https://github.com/Upliner/CharMorph-Vitruvian) | [![Official examples from Microsoft's Rocketbox character collection](media/rocketbox-examples.jpg)](https://github.com/microsoft/Microsoft-Rocketbox) |
+| A clay render of the CC0 base mesh, without textures or hair. | Official collection preview, © Microsoft, MIT licensed. |
+
 These links point to the original projects; their model files are not bundled.
+See [preview sources and credits](media/README.md).
 
 ## License
 
