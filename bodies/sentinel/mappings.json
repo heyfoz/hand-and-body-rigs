@@ -1,0 +1,199 @@
+{
+  "model": "assets/sentinel.glb",
+  "jointCount": 68,
+  "bodyChains": {
+    "spine": [
+      "Hips",
+      "Spine",
+      "Spine1",
+      "Spine2",
+      "Neck",
+      "Head"
+    ],
+    "leftArm": [
+      "Spine2",
+      "LeftShoulder",
+      "LeftArm",
+      "LeftForeArm",
+      "LeftHand"
+    ],
+    "rightArm": [
+      "Spine2",
+      "RightShoulder",
+      "RightArm",
+      "RightForeArm",
+      "RightHand"
+    ],
+    "leftLeg": [
+      "Hips",
+      "LeftUpLeg",
+      "LeftLeg",
+      "LeftFoot",
+      "LeftToeBase"
+    ],
+    "rightLeg": [
+      "Hips",
+      "RightUpLeg",
+      "RightLeg",
+      "RightFoot",
+      "RightToeBase"
+    ]
+  },
+  "handLandmarkIndexConvention": "MediaPipe hand landmarks, 0-based; not glTF node indices",
+  "handLandmarks": [
+    {
+      "index": 0,
+      "landmark": "WRIST",
+      "left": "LeftHand",
+      "right": "RightHand"
+    },
+    {
+      "index": 1,
+      "landmark": "THUMB_CMC",
+      "left": "LeftHandThumb1",
+      "right": "RightHandThumb1"
+    },
+    {
+      "index": 2,
+      "landmark": "THUMB_MCP",
+      "left": "LeftHandThumb2",
+      "right": "RightHandThumb2"
+    },
+    {
+      "index": 3,
+      "landmark": "THUMB_IP",
+      "left": "LeftHandThumb3",
+      "right": "RightHandThumb3"
+    },
+    {
+      "index": 4,
+      "landmark": "THUMB_TIP",
+      "left": "LeftHandThumb4",
+      "right": "RightHandThumb4"
+    },
+    {
+      "index": 5,
+      "landmark": "INDEX_FINGER_MCP",
+      "left": "LeftHandIndex1",
+      "right": "RightHandIndex1"
+    },
+    {
+      "index": 6,
+      "landmark": "INDEX_FINGER_PIP",
+      "left": "LeftHandIndex2",
+      "right": "RightHandIndex2"
+    },
+    {
+      "index": 7,
+      "landmark": "INDEX_FINGER_DIP",
+      "left": "LeftHandIndex3",
+      "right": "RightHandIndex3"
+    },
+    {
+      "index": 8,
+      "landmark": "INDEX_FINGER_TIP",
+      "left": "LeftHandIndex4",
+      "right": "RightHandIndex4"
+    },
+    {
+      "index": 9,
+      "landmark": "MIDDLE_FINGER_MCP",
+      "left": "LeftHandMiddle1",
+      "right": "RightHandMiddle1"
+    },
+    {
+      "index": 10,
+      "landmark": "MIDDLE_FINGER_PIP",
+      "left": "LeftHandMiddle2",
+      "right": "RightHandMiddle2"
+    },
+    {
+      "index": 11,
+      "landmark": "MIDDLE_FINGER_DIP",
+      "left": "LeftHandMiddle3",
+      "right": "RightHandMiddle3"
+    },
+    {
+      "index": 12,
+      "landmark": "MIDDLE_FINGER_TIP",
+      "left": "LeftHandMiddle4",
+      "right": "RightHandMiddle4"
+    },
+    {
+      "index": 13,
+      "landmark": "RING_FINGER_MCP",
+      "left": "LeftHandRing1",
+      "right": "RightHandRing1"
+    },
+    {
+      "index": 14,
+      "landmark": "RING_FINGER_PIP",
+      "left": "LeftHandRing2",
+      "right": "RightHandRing2"
+    },
+    {
+      "index": 15,
+      "landmark": "RING_FINGER_DIP",
+      "left": "LeftHandRing3",
+      "right": "RightHandRing3"
+    },
+    {
+      "index": 16,
+      "landmark": "RING_FINGER_TIP",
+      "left": "LeftHandRing4",
+      "right": "RightHandRing4"
+    },
+    {
+      "index": 17,
+      "landmark": "PINKY_MCP",
+      "left": "LeftHandPinky1",
+      "right": "RightHandPinky1"
+    },
+    {
+      "index": 18,
+      "landmark": "PINKY_PIP",
+      "left": "LeftHandPinky2",
+      "right": "RightHandPinky2"
+    },
+    {
+      "index": 19,
+      "landmark": "PINKY_DIP",
+      "left": "LeftHandPinky3",
+      "right": "RightHandPinky3"
+    },
+    {
+      "index": 20,
+      "landmark": "PINKY_TIP",
+      "left": "LeftHandPinky4",
+      "right": "RightHandPinky4"
+    }
+  ],
+  "additionalJoints": [
+    {
+      "name": "HeadTop_End",
+      "parent": "Head"
+    },
+    {
+      "name": "headfront",
+      "parent": "Head"
+    },
+    {
+      "name": "LeftHand_End",
+      "parent": "LeftHand"
+    },
+    {
+      "name": "RightHand_End",
+      "parent": "RightHand"
+    },
+    {
+      "name": "LeftToe_End",
+      "parent": "LeftToeBase"
+    },
+    {
+      "name": "RightToe_End",
+      "parent": "RightToeBase"
+    }
+  ],
+  "animationClips": [],
+  "facialMorphTargets": []
+}
